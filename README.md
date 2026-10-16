@@ -1,10 +1,18 @@
 # WordStart Reader
 
-A free desktop Chrome and Edge extension that adds adjustable emphasis to the first letters of words. All reading features run on your device. No account, server, analytics, remote scripts, or runtime dependencies are required.
+A browser extension that helps you read walls of text by emphasizing the first letters of words to guide your eyes through text. Adjustable emphasis and lighter word endings let you find a reading style that feels easier to follow.
 
-Independent implementation. Not affiliated with Bionic Reading, text-vide, or OpenBionic.
+All reading features run on your device. No account, server, analytics, remote scripts, or runtime dependencies are required.
 
-![WordStart Reader in dark mode, showing the reading switch, four sliders, scope dropdown, and live preview](docs/images/wordstart-reader-dark.png)
+An example from Lewis Carroll's *Jabberwocky*:
+
+<img src="docs/images/jabberwocky-sample.png" alt="Jabberwocky excerpt showing emphasized word beginnings and lighter word endings" width="50%">
+
+Inspired by [Bionic Reading](https://bionic-reading.com/), [text-vide](https://github.com/Gumball12/text-vide), and [OpenBionic](https://github.com/qwerzl/OpenBionic). WordStart Reader is an independent implementation and is not affiliated with these projects.
+
+## Screenshot
+
+<img src="docs/images/wordstart-reader-dark.png" alt="WordStart Reader in dark mode" width="20%">
 
 ## Features
 
