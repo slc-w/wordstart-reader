@@ -66,4 +66,4 @@ See [PRIVACY.md](PRIVACY.md). The extension uses `activeTab` and `scripting` to 
 - Improved reading speed or understanding is not guaranteed.
 
 ## License
-MIT
+MIT — see [LICENSE](LICENSE).
