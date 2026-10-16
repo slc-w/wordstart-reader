@@ -4,6 +4,8 @@ A free desktop Chrome and Edge extension that adds adjustable emphasis to the fi
 
 Independent implementation. Not affiliated with Bionic Reading, text-vide, or OpenBionic.
 
+![WordStart Reader in dark mode, showing the reading switch, four sliders, scope dropdown, and live preview](docs/images/wordstart-reader-dark.png)
+
 ## Features
 
 - Reading mode switch for the current page.
