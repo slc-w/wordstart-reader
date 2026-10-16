@@ -1,0 +1,15 @@
+node_modules/
+test-results/
+playwright-report/
+coverage/
+dist/
+*.zip
+popup-off.png
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

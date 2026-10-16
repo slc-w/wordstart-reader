@@ -1,0 +1,16 @@
+{
+  "name": "wordstart-reader",
+  "version": "1.5.2",
+  "private": true,
+  "description": "A local Chrome and Edge extension for adjustable partial-word emphasis.",
+  "scripts": {
+    "check": "node --check extension/background.js && node --check extension/content.js && node --check extension/format.js && node --check extension/popup.js && node --check test.cjs",
+    "test": "node test.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

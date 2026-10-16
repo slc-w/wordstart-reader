@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>WordStart Reader</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+  <header><div class="mark" id="logo" aria-label="Wr" data-state="off">W<span>r</span></div><div class="title"><h1>WordStart Reader</h1><p id="status" role="status" aria-live="polite"></p></div><label class="switch-row" for="toggle"><span class="switch"><input id="toggle" aria-label="Reading mode" type="checkbox" role="switch" disabled><span class="track"></span></span><span id="modeState">Off</span></label></header>
+  <form id="settings">
+    <div class="pair"><div><label for="percent">Bold portion <output id="percentValue"></output></label>
+    <input id="percent" type="range" min="10" max="80" step="5">
+    </div><div><label for="opacity">Text opacity <output id="opacityValue"></output></label>
+    <input id="opacity" aria-description="Opacity of the non-bold word endings" type="range" min="30" max="100" step="5"></div></div>
+    <div class="pair"><div><label for="minLength">Min. word length</label>
+    <output id="minLengthValue" for="minLength"></output><input id="minLength" type="range" min="1" max="5" step="1">
+    </div><div><label for="weight">Bold weight</label>
+    <output id="weightValue" for="weight"></output><input id="weight" type="range" min="400" max="800" step="100">
+    </div></div><div class="action-row"><div><label for="scope">Apply to</label>
+    <select id="scope"><option value="article">Article</option><option value="page">Whole page</option></select></div>
+    <button class="secondary" id="reset" type="button">Reset settings</button></div>
+    <div class="preview-panel"><span class="eyebrow">PREVIEW</span><div id="preview" aria-label="Formatting preview"></div></div>
+  </form>
+  <div class="bottom"><footer>Free · Runs on your device · No account<br>Settings are saved. Each new page starts off.</footer><button id="theme" type="button" aria-label="Switch to light mode" aria-pressed="false"><span aria-hidden="true">☀</span></button></div>
+  <script src="format.js"></script><script src="popup.js"></script>
+</body></html>
